@@ -5,12 +5,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div
-      className="w-full bg-center bg-cover z-20 bg-black h-[900px]"
-      style={{
-        backgroundImage: "url('/src/assets/background.jpg')",
-      }}
-    >
+    <div className="w-full bg-center bg-cover z-20 bg-black h-[900px] bg-background-hero">
       <div className="max-w-[1300px] my-20 mx-auto">
         <div className="grid lg:grid-cols-2 place-items-center gap-4 px-8">
           <div className="text-white z-20">
