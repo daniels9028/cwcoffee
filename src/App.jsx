@@ -1,10 +1,12 @@
-import { Hero, Navbar } from "./components/index";
+import { Hero, Menu, Navbar, Outlet } from "./components/index";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Outlet />
+      <Menu />
     </>
   );
 }

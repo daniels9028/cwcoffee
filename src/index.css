@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
+  background-color: #f4f1ee;
+}
+.navbar {
   font-family: "Jost", sans-serif;
+}
+
+.outlet {
+  font-family: "Bebas Neue", sans-serif;
 }
