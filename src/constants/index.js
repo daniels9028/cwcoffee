@@ -42,6 +42,13 @@ import menu24 from "../assets/menu24.jpg";
 import menu25 from "../assets/menu25.jpg";
 import menu26 from "../assets/menu26.jpg";
 
+import news1 from "../assets/news1.jpg";
+import news2 from "../assets/news2.jpg";
+import news3 from "../assets/news3.jpg";
+import news4 from "../assets/news4.jpg";
+import news5 from "../assets/news5.jpg";
+import news6 from "../assets/news6.jpg";
+
 export const outlets = [
   {
     img: outlet1,
@@ -132,5 +139,43 @@ export const menus = [
     img: menu10,
     name: "ESPRESSO ROMANO",
     description: "Espresso + Lemon Juice + Soda",
+  },
+];
+
+export const news = [
+  {
+    img: news1,
+    title: "Press Release: CW Coffee Meraih Sertifikasi Halal Dari MUI",
+    date: "2024-01-10T16:31:38",
+    sub: [
+      {
+        img: news2,
+        title: "Rewind 2023: A Year Of Growth For CW Coffee",
+        date: "2023-12-31T15:59:02",
+      },
+      {
+        img: news3,
+        title: "Kelezatan Minuman Spesial Dari CW Coffee",
+        date: "2023-12-05T15:56:00",
+      },
+    ],
+  },
+  {
+    img: news4,
+    title: "CW Group Luncurkan Brand Baru: CWGO",
+    date: "2023-12-07T15:47:34",
+    sub: [
+      {
+        img: news5,
+        title: "#RayakanBarengCW: Hari Guru Nasional",
+        date: "2023-11-25T14:12:34",
+      },
+      {
+        img: news6,
+        title:
+          "CW Coffee Rayakan Natal Dengan Anak-Anak Panti Asuhan Harapan Bangsa",
+        date: "2023-12-23T15:51:10",
+      },
+    ],
   },
 ];
